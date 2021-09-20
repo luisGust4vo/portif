@@ -19,6 +19,8 @@ body{
     justify-items: center;
     height: 100vh;
     color: #aeaeae;
+    
+    
 }
 
 
@@ -36,9 +38,11 @@ body{
  animation-duration: 1.5s;
  animation-delay: 0.25;
  box-shadow:0 1px 2px 0 rgba(0, 173, 159, 500);
+
  
  
 }
+
 .redes-sociais{
     display: flex;
     justify-content: center;
@@ -82,9 +86,7 @@ body{
     box-shadow:0 1px 2px 0 rgba(190, 0, 248, 0.876);
 }
 
-.profile{
-    max-width: 452px;
-}
+
 
 .litle2{
     font-size: 17px;
@@ -147,11 +149,14 @@ body{
     }
 }
 
-@media (max-whidth: 600px){
+@media (max-width: 600px) {
+
     .box{
-        padding: 2rem;
+       justify-items: center;
+       margin: 0 auto;
+       padding: 2rem;
     }
     .box:first-child{
-        padding: 3rem;
+        padding: 1rem;
     }
 }
