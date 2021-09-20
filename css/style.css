@@ -21,6 +21,11 @@ body{
     color: #aeaeae;
 }
 
+
+.container{
+    padding: 0 16px;
+}
+
 .box{
  background: #EEE;
  padding: 4rem;
@@ -30,6 +35,9 @@ body{
  animation-name: fade;
  animation-duration: 1.5s;
  animation-delay: 0.25;
+ box-shadow:0 1px 2px 0 rgba(0, 173, 159, 500);
+ 
+ 
 }
 .redes-sociais{
     display: flex;
@@ -37,8 +45,6 @@ body{
     margin-top: 2rem;
     margin-bottom: 4rem;
     
-
-
 
 }
 .redes-sociais li{
@@ -66,17 +72,23 @@ body{
 
 
 .litle{
-    font-weight: normal;
-    
+    font-weight: normal;  
    
 }
 
 .profile{
     border-radius: 50%;
     margin: 0 auto 2rem auto ;
+    box-shadow:0 1px 2px 0 rgba(190, 0, 248, 0.876);
 }
+
+.profile{
+    max-width: 452px;
+}
+
 .litle2{
     font-size: 17px;
+    
 }
 
 body{
@@ -135,3 +147,11 @@ body{
     }
 }
 
+@media (max-whidth: 600px){
+    .box{
+        padding: 2rem;
+    }
+    .box:first-child{
+        padding: 3rem;
+    }
+}
