@@ -1,5 +1,23 @@
 const ulSquare = document.querySelector("ul.squares")
 
+function aviso(){
+    
+    swal({
+        title: "OPS!!!",
+        text: "Vou arrumar depois, estou sem tempo :P",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Vlww!", {
+            icon: "success",
+          });
+        }    
+      });
+}
+
 for(let i=0; i<11;i++){
     const li = document.createElement("li");
 
