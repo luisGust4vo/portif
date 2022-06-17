@@ -1,8 +1,19 @@
 const ulSquare = document.querySelector("ul.squares")
-
 function aviso(){
-    
-    alert('Quando sobrar tempo eu arrumo');
+    swal({
+        title: "Erro!",
+        text: "Quando sobrar tempo eu arrumo hah",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Obrigado", {
+            icon: "success",
+          });
+        } 
+      });
 }
 
 for(let i=0; i<11;i++){
