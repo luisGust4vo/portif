@@ -1,7 +1,7 @@
 const ulSquare = document.querySelector("ul.squares")
 function aviso(){
     swal({
-        title: "Erro!",
+        title: "Ops!",
         text: "Quando sobrar tempo eu arrumo hah",
         icon: "warning",
         buttons: true,
